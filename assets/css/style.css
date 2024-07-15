@@ -1,0 +1,45 @@
+@import url(./root.css);
+* {
+  text-decoration: none !important;
+  list-style-type: none !important;
+}
+.--fs-16 {
+  font-size: var(--fs-16);
+}
+.--fs-50 {
+  font-size: var(--fs-50);
+}
+.--fs-25 {
+  font-size: var(--fs-25);
+}
+.--fs-20 {
+  font-size: var(--fs-20);
+}
+.--fs-35 {
+  font-size: var(--fs-35);
+}
+.--fs-14 {
+  font-size: var(--fs-14);
+}
+.--fs-18 {
+  font-size: var(--fs-18);
+}
+.--fs-21{
+    font-size: var(--fs-21);
+}
+
+.hero-bg-img{
+    background-image: url(/assets/images/hero-section-bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-links{
+font-family: Poppins;
+
+font-weight: 500;
+line-height: 27px;
+text-align: left;
+color: var(--white-color-);
+
+}
