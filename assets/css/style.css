@@ -15,8 +15,8 @@
 .--fs-20 {
   font-size: var(--fs-20);
 }
-.--fs-35 {
-  font-size: var(--fs-35);
+.--fs-30 {
+  font-size: var(--fs-30);
 }
 .--fs-14 {
   font-size: var(--fs-14);
@@ -81,8 +81,38 @@ border-radius: 45.5px;
 
 border: 1px solid #fff;
 transition: all 300ms linear;
+margin-bottom: 91px;
 }
 .get-start:hover{
+  background-color: black;
+  color: #fff;
+  
+}
+.liner-gradient{
+  background: linear-gradient(180deg, rgba(0, 10, 26, 0) 0%, #000A1A 100%);
+bottom: 0;
+
+}
+.mint{
+  font-family: Poppins;
+color: var(--white-color-);
+font-weight: 600;
+line-height: 68px;
+text-align: left;
+}
+.coming{
+width: 149px;
+height:44px;
+top: 1562px;
+left: 1117px;
+padding: 10px 20px 10px 20px;
+gap: 10px;
+border-radius: 45.5px ;
+opacity: 0px;
+transition: all 300ms linear;
+border: 1px solid #fff;
+}
+.coming:hover{
   background-color: black;
   color: #fff;
   
